@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Miguelhem</title>
+    <link rel="icon" type="Imágenes/icon.png" href="Imágenes/icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Nixie+One|Source+Sans+Pro|Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <script type="text/javascript">
+        //auto expand textarea
+        function adjust_textarea(h) {
+            h.style.height = "20px";
+            h.style.height = (h.scrollHeight) + "px";
+        }
+
+        function myFunction() {
+            let x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <header class="header">
+        <!--Encabezado-->
+        <figure>
+            <img class="logo" src="Imágenes/Logo-web.png" alt="logomh" width="100" />
+        </figure>
+        <!--Menú-->
+
+
+        <div class="topnav" id="myTopnav">
+
+            <a class="link" href="#Inicio" title="Inicio">Inicio</a>
+
+            <a class="link" href="#experiencia" title="Experiencia">Experiencia</a>
+
+            <a class="link" href="#contacto" title="Contacto">Contacto</a>
+
+            <a class="link" href="https://github.com/Miguelhem" title="github" target="_blank">Proyectos</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+    </header>
+
+    <div class="presentation">
+        <section id="Inicio" class="hero">
+            <!--Contenido-->
+            <h1 class="hero-presentation">Miguel Angel Hernández Melo<br> <small> Ingeniero petrolero, Diseñador, Desarrollador JavaScript </small>
+            </h1>
+
+            <figure class="heropicture">
+                <img src="Imágenes/danup.jpeg" alt="danuppicture">
+            </figure>
+
+            <!--  <img src="Imágenes/roma1-2.jpg" alt="roma" title="roma" width="500"> -->
+
+        </section>
+    </div>
+    <section id="experiencia" class="content">
+        <h2>Experiencia</h2>
+        <article class="projects">
+
+            <div class="imageboxes">
+
+                <div class="box">
+                    <figure class="aboutimage">
+                        <figcaption class="imagecaption">Diseño</figcaption> <img src="Imágenes/design.jpeg" alt="manual maf" title="manual" width="255" height="190">
+                        <figcaption class="imagecaption2"><a href="https://www.behance.net/miguelhm" target="_blank">Ver portafolio</a></figcaption>
+                </div>
+                </figure>
+                <div class="box">
+                    <figure class="aboutimage">
+                        <figcaption class="imagecaption">Tecnología</figcaption><img src="Imágenes/tech.jpeg" alt="bitcoinmedium" title="btcm" width="255" height="190">
+                        <figcaption class="imagecaption2"><a href="https://medium.com/@miguelhemmm" target="_blank">Perfil de medium</a></figcaption>
+                </div>
+                </figure>
+                <div class="box">
+                    <figure class="aboutimage">
+                        <figcaption class="imagecaption">Emprendimiento</figcaption><img src="Imágenes/entreprenurship.jpeg" alt="eogsea" title="eogsea" width="255" height="190">
+                        <figcaption class="imagecaption2"><a href="https://disney.com" target="_blank">Ver Proyectos</a></figcaption>
+                </div>
+                </figure>
+                <div class="box">
+                    <figure class="aboutimage">
+                        <figcaption class="imagecaption">Desarrollo</figcaption><img src="Imágenes/coding.jpeg" alt="coding" title="coding" width="255" height="190">
+                        <figcaption class="imagecaption2"><a href="https://github.com/miguelhemmm" target="_blank">Ir a github</a></figcaption>
+                </div>
+                </figure>
+                <div class="box">
+                    <figure class="aboutimage">
+                        <figcaption class="imagecaption">Curriculum</figcaption><img src="Imágenes/resumepicture.jpeg" alt="cv" title="resume" width="255" height="190">
+                        <figcaption class="imagecaption2"><a href="https://drive.google.com/file/d/1rcQcoqpQZd73rld4kBKNODaC6TrGdWzz/view?usp=sharing" target="_blank">Descargar CV</a></figcaption>
+                </div>
+                </figure>
+            </div>
+        </article>
+    </section>
+
+
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <div class="formulario">
+
+            <form class="form-style-4" action="" method="post">
+                <label for="field1">
+                <span>Nombre</span><input type="text" name="field1" required="true" />
+                </label>
+                <label for="field2">
+                <span>Correo</span><input type="email" name="field2" required="true" />
+                </label>
+                <label for="field3">
+                <span>Teléfono</span><input type="text" name="field3" required="true" />
+                </label>
+                <label for="field4">
+                <span>Comentarios</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+                </label>
+                <label>
+                <span> </span><input type="submit" value="Enviar mensaje" />
+                </label>
+            </form>
+            <div class="social">
+
+                <a href="https://twitter.com/miguelhemmm" class="social-link twitter" target="_blank"></a>
+                <a href="https://facebook.com/miguelhemmm" class="social-link facebook" target="_blank"></a>
+                <a href="https://github.com/miguelhemmm" class="social-link github" target="_blank"></a>
+                <a href="https://instagram.com/miguelhemmm" class="social-link instagram" target="_blank"></a>
+
+
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div>
+            <p>
+                Effectivo Agency 2019 · <img src="Imágenes/Logo-web3.png" alt="logofooter" width="80">
+            </p>
+        </div>
+        <div>
+            <p>
+                Designed by <a href="https://www.instagram.com/miguelhemmm/" title="Instagram" target="_blank">@Miguelhemmm </a>
+            </p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
