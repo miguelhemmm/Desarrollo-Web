@@ -227,71 +227,25 @@ h1 small {
     margin: 12px;
 }
 .social-link.twitter {
-    background-image: url('../Desarrollo Web/Imágenes/twittericon.png');
+    background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/twittericon.png');
     background-repeat: no-repeat;
     background-size: 50px 50px;
 }
 .social-link.facebook {
-    background-image: url('../Desarrollo Web/Imágenes/facebookicon.png');
+    background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/facebookicon.png');
     background-repeat: no-repeat;
     background-size: 50px 50px;
 }
 .social-link.instagram {
-    background-image: url('../Desarrollo Web/Imágenes/instagramicon.png');
+    background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/instagramicon.png');
     background-repeat: no-repeat;
     background-size: 50px 50px;
 }
 .social-link.github {
-    background-image: url('../Desarrollo Web/Imágenes/githubicon.png');
+    background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Imágenes/githubicon.png');
     background-repeat: no-repeat;
     background-size: 50px 50px;
 }
-
-/*
-                .content-table {
-                    background: #3C4042;
-                    border-radius: 6px;
-                    padding-left: 18px;
-                    padding-right: 10px;
-                    padding-top: 5px;
-                    padding-bottom: 20px;
-                }
-                
-                table {
-                    border-spacing: 0px;
-                    border-collapse: separate;
-                    border: 2px solid gray;
-                    border-radius: 6px;
-                    justify-content: space-evenly;
-                }
-                
-                th,
-                tr td {
-                    text-align: center;
-                    border: 2px solid gray;
-                    width: 250px;
-                    border-collapse: collapse;
-                    justify-content: center
-                }
-                
-                .proyects-image1,
-                .proyects-image2,
-                .proyects-image3,
-                .proyects-image4,
-                .proyects-image5 {
-                    width: 252.5px;
-                    height: 200px;
-                    display: flex;
-                }
-
-                          .proyects {
-                    color: whitesmoke;
-                    margin-bottom: 15px;
-                    margin-left: 10px;
-                    margin-right: 10px;
-                }
-
-                */
 .form-style-4 {
     font-size: 12px;
     background: #d3ae67;
