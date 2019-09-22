@@ -227,22 +227,22 @@ h1 small {
     margin: 12px;
 }
 .social-link.twitter {
-    background-image: url('../Desarrollo Web/Imágenes/twittericon.png');
+    background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/twittericon.png');
     background-repeat: no-repeat;
     background-size: 50px 50px;
 }
 .social-link.facebook {
-    background-image: url('../Desarrollo Web/Imágenes/facebookicon.png');
+    background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/facebookicon.png');
     background-repeat: no-repeat;
     background-size: 50px 50px;
 }
 .social-link.instagram {
-    background-image: url('../Desarrollo Web/Imágenes/instagramicon.png');
+    background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/instagramicon.png');
     background-repeat: no-repeat;
     background-size: 50px 50px;
 }
 .social-link.github {
-    background-image: url('../Desarrollo Web/Imágenes/githubicon.png');
+    background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/githubicon.png');
     background-repeat: no-repeat;
     background-size: 50px 50px;
 }
