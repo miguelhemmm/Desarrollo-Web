@@ -328,5 +328,9 @@ h1 small {
 .form-style-4 input[type=submit]:hover,
 .form-style-4 input[type=button]:hover {
     background: whitesmoke;
+<<<<<<< HEAD
     color: #d3ae67;
 }
+=======
+}
+>>>>>>> 37148ff66380bbf67c5c3d666fd8bde4a81dbc06
