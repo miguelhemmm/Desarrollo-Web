@@ -5,7 +5,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 100%
+    width: 100%;
 }
 
 .header img {
@@ -125,7 +125,8 @@ h2 {
     padding-left: 0;
     padding-bottom: 0;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 60px;
+    box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
 }
 
 .hero img {
@@ -133,6 +134,7 @@ h2 {
     max-width: 100%;
     height: auto;
     display: block;
+    overflow: hidden;
 }
 
 h1 small {
@@ -149,6 +151,8 @@ h1 small {
     color: whitesmoke;
     border: 3px solid #d3ae67;
     border-radius: 6px;
+    box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+    ;
 }
 
 .imageboxes {
@@ -213,12 +217,13 @@ h1 small {
     border: 3px solid #101010;
     border-radius: 5px;
     background-color: #d3ae67;
-    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 25px;
     padding-right: 250px;
+    box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 10px;
 }
 .social-link {
     width: 50px;
@@ -229,75 +234,32 @@ h1 small {
 .social-link.twitter {
     background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/twittericon.png');
     background-repeat: no-repeat;
-    background-size: 50px 50px;
+    background-size: 100%;
+    background-position: 50%;
 }
 .social-link.facebook {
     background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/facebookicon.png');
     background-repeat: no-repeat;
-    background-size: 50px 50px;
+    background-size: 100%;
+    background-position: 50%;
 }
 .social-link.instagram {
     background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/instagramicon.png');
     background-repeat: no-repeat;
-    background-size: 50px 50px;
+    background-size: 100%;
+    background-position: 50%;
 }
 .social-link.github {
     background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Imágenes/githubicon.png');
     background-repeat: no-repeat;
-    background-size: 50px 50px;
+    background-size: 100%;
+    background-position: 50%;
 }
-
-/*
-                .content-table {
-                    background: #3C4042;
-                    border-radius: 6px;
-                    padding-left: 18px;
-                    padding-right: 10px;
-                    padding-top: 5px;
-                    padding-bottom: 20px;
-                }
-                
-                table {
-                    border-spacing: 0px;
-                    border-collapse: separate;
-                    border: 2px solid gray;
-                    border-radius: 6px;
-                    justify-content: space-evenly;
-                }
-                
-                th,
-                tr td {
-                    text-align: center;
-                    border: 2px solid gray;
-                    width: 250px;
-                    border-collapse: collapse;
-                    justify-content: center
-                }
-                
-                .proyects-image1,
-                .proyects-image2,
-                .proyects-image3,
-                .proyects-image4,
-                .proyects-image5 {
-                    width: 252.5px;
-                    height: 200px;
-                    display: flex;
-                }
-
-                          .proyects {
-                    color: whitesmoke;
-                    margin-bottom: 15px;
-                    margin-left: 10px;
-                    margin-right: 10px;
-                }
-
-                */
 .form-style-4 {
     font-size: 12px;
     background: #d3ae67;
     padding: 15px;
     align-items: center;
-    margin-bottom: px;
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -354,16 +316,17 @@ h1 small {
     background: #101010;
     padding: 10px 12px 10px 12px;
     border-radius: 10px;
-    border: none;
-    color: #d3ae60;
+    color: whitesmoke;
     width: 200px;
+    border: none;
     margin-top: 10px;
     margin-left: 0px;
     margin-bottom: 0px;
-    margin-right: 110px;
-    display: flex;
+    margin-right: 100px;
+    display: flex
 }
 .form-style-4 input[type=submit]:hover,
 .form-style-4 input[type=button]:hover {
     background: whitesmoke;
+    color: #d3ae67;
 }
