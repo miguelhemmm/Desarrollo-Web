@@ -10,152 +10,186 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Nixie+One|Source+Sans+Pro|Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <header class="header">
-        <!--Encabezado-->
-        <figure>
-            <img class="logo" src="Imágenes/Logo-web.png" alt="logomh" width="100" />
-        </figure>
-        <!--Menú-->
+
+    <nav id="header" class="navbar sticky-top navbar navbar-expand-lg navbar navbar-dark pt-3" style="background-color: #101010;">
+        <div class="container-fluid">
+            <a .navbar-brand href="#">
+                <img class="logo" src="Imágenes/Logo-web3.png" alt="logomh" width="80"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon "></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Inicio">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carrusel">Experiencia</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="contacto" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contacto
+                      </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#contacto">Mandar Correo</a>
+                            <a class="dropdown-item" href="#contacto">Redes Sociales</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#contacto">Teléfono</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://github.com/Miguelhemmm" title="github" target="_blank">Proyectos</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-light" my-2 my-sm-0 " type="submit " style="color: #101010 ">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <section id="Inicio" class="hero">
+            <h1 class="hero-presentation ">Miguel Angel Hernández Melo<br> <small> Ingeniero petrolero, Diseñador, Desarrollador UI </small>
+            </h1>
+            <figure class="heropicture ml-auto">
+                <img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/danup.jpeg " alt="danuppicture ">
+            </figure>
+        </section>
+    </div>
 
 
-        <div class="topnav" id="myTopnav">
-
-            <a class="link" href="#Inicio" title="Inicio">Inicio</a>
-
-            <a class="link" href="#experiencia" title="Experiencia">Experiencia</a>
-
-            <a class="link" href="#contacto" title="Contacto">Contacto</a>
-
-            <a class="link" href="https://github.com/Miguelhem" title="github" target="_blank">Proyectos</a>
-
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+    <h2>Experiencia</h2>
+    <section class="content" id="carrusel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/design.jpeg " class="d-block w-100 " alt="... ">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Diseño</h5>
+                        <figcaption class="imagecaption2"><a href="https://www.behance.net/miguelhm" target="_blank ">Ver portafolio</a></figcaption>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/tech.jpeg " class="d-block w-100 " alt="... ">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Tecnología</h5>
+                        <figcaption class="imagecaption2"><a href="https://medium.com/@miguelhemmm " target="_blank ">Perfil de medium</a></figcaption>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/entreprenurship.jpeg " class="d-block w-100 " alt="... ">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Emprendimiento</h5>
+                        <figcaption class="imagecaption2"><a href="#Inicio" target="_blank">Ver Proyectos</a></figcaption>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/coding.jpeg " class="d-block w-100 " alt="... ">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Desarrollo</h5>
+                        <figcaption class="imagecaption2"><a href="https://github.com/miguelhemmm " target="_blank ">Ir a github</a></figcaption>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/resumepicture.jpeg " class="d-block w-100 " alt="... ">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Curriculum</h5>
+                        <figcaption class="imagecaption2"><a href="https://drive.google.com/file/d/1rcQcoqpQZd73rld4kBKNODaC6TrGdWzz/view?usp=sharing " target="_blank ">Descargar CV</a></figcaption>
+                    </div>
+                </div>
+                <div class="overlay"> </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only ">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
             </a>
         </div>
 
-    </header>
 
-    <div class="presentation">
-        <section id="Inicio" class="hero">
-            <!--Contenido-->
-            <h1 class="hero-presentation">Miguel Angel Hernández Melo<br> <small> Ingeniero petrolero, Diseñador, Desarrollador JavaScript </small>
-            </h1>
-
-            <figure class="heropicture">
-                <img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/danup.jpeg" alt="danuppicture">
-            </figure>
-
-            <!--  <img src="Imágenes/roma1-2.jpg" alt="roma" title="roma" width="500"> -->
-
-        </section>
-    </div>
-    <section id="experiencia" class="content">
-        <h2>Experiencia</h2>
-        <article class="projects">
-
-            <div class="imageboxes">
-
-                <div class="box">
-                    <figure class="aboutimage">
-                        <figcaption class="imagecaption">Diseño</figcaption> <img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/design.jpeg" alt="manual maf" title="manual" width="255" height="190">
-                        <figcaption class="imagecaption2"><a href="https://www.behance.net/miguelhm" target="_blank">Ver portafolio</a></figcaption>
-                </div>
-                </figure>
-                <div class="box">
-                    <figure class="aboutimage">
-                        <figcaption class="imagecaption">Tecnología</figcaption><img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/tech.jpeg" alt="bitcoinmedium" title="btcm" width="255" height="190">
-                        <figcaption class="imagecaption2"><a href="https://medium.com/@miguelhemmm" target="_blank">Perfil de medium</a></figcaption>
-                </div>
-                </figure>
-                <div class="box">
-                    <figure class="aboutimage">
-                        <figcaption class="imagecaption">Emprendimiento</figcaption><img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/entreprenurship.jpeg" alt="eogsea" title="eogsea" width="255" height="190">
-                        <figcaption class="imagecaption2"><a href="#Inicio" target="_blank">Ver Proyectos</a></figcaption>
-                </div>
-                </figure>
-                <div class="box">
-                    <figure class="aboutimage">
-                        <figcaption class="imagecaption">Desarrollo</figcaption><img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/coding.jpeg" alt="coding" title="coding" width="255" height="190">
-                        <figcaption class="imagecaption2"><a href="https://github.com/miguelhemmm" target="_blank">Ir a github</a></figcaption>
-                </div>
-                </figure>
-                <div class="box">
-                    <figure class="aboutimage">
-                        <figcaption class="imagecaption">Curriculum</figcaption><img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/resumepicture.jpeg" alt="cv" title="resume" width="255" height="190">
-                        <figcaption class="imagecaption2"><a href="https://drive.google.com/file/d/1rcQcoqpQZd73rld4kBKNODaC6TrGdWzz/view?usp=sharing" target="_blank">Descargar CV</a></figcaption>
-                </div>
-                </figure>
-            </div>
-        </article>
     </section>
-
-
+    </div>
     <section id="contacto" class="contact">
-        <h2>Contacto</h2>
-        <div class="formulario">
+        <div class="container-fluid">
+            <h2>Contacto</h2>
+            <div class="formulario">
 
-            <form class="form-style-4" action="" method="post">
-                <label for="field1">
+                <form class="form-style-4" action="" method="post">
+                    <label for="field1">
                 <span>Nombre</span><input type="text" name="field1" required="true" />
                 </label>
-                <label for="field2">
+                    <label for="field2">
                 <span>Correo</span><input type="email" name="field2" required="true" />
                 </label>
-                <label for="field3">
+                    <label for="field3">
                 <span>Teléfono</span><input type="text" name="field3" required="true" />
                 </label>
-                <label for="field4">
+                    <label for="field4">
                 <span>Comentarios</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
                 </label>
-                <label>
-                <span> </span><input type="submit" value="Enviar mensaje" />
-                </label>
-            </form>
-            <div class="social">
 
-                <a href="https://twitter.com/miguelhemmm" class="social-link twitter" target="_blank"></a>
-                <a href="https://facebook.com/miguelhemmm" class="social-link facebook" target="_blank"></a>
-                <a href="https://github.com/miguelhemmm" class="social-link github" target="_blank"></a>
-                <a href="https://instagram.com/miguelhemmm" class="social-link instagram" target="_blank"></a>
+                    <button type="submit" class="btn btn-submit btn-lg">Enviar mensaje</button>
 
+                </form>
+                <div class="social ">
+
+                    <a href="https://twitter.com/miguelhemmm " class="social-link twitter " target="_blank"></a>
+                    <a href="https://facebook.com/miguelhemmm " class="social-link facebook " target="_blank"></a>
+                    <a href="https://github.com/miguelhemmm " class="social-link github " target="_blank"></a>
+                    <a href="https://instagram.com/miguelhemmm " class="social-link instagram " target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-11 pt-2">
+                    <p>
+                        Effectivo Agency 2019 · <img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/logo-web3.png " alt="logofooter " width="80 ">
+                    </p>
+                </div>
+                <div class="col-md-1 pt-3">
+                    <p>
+                        Designed by <a href="https://www.instagram.com/miguelhemmm/ " title="Instagram " target="_blank ">@Miguelhemmm </a>
+                    </p>
+                </div>
 
             </div>
         </div>
-
-    </section>
-    <footer class="footer">
-        <div>
-            <p>
-                Effectivo Agency 2019 · <img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/logo-web3.png" alt="logofooter" width="80">
-            </p>
-        </div>
-        <div>
-            <p>
-                Designed by <a href="https://www.instagram.com/miguelhemmm/" title="Instagram" target="_blank">@Miguelhemmm </a>
-            </p>
-        </div>
-
     </footer>
     <script type="text/javascript">
         //auto expand textarea
         function adjust_textarea(h) {
-            h.style.height = "20px";
+            h.style.height = "20px ";
             h.style.height = (h.scrollHeight) + "px";
         }
-
-        function myFunction() {
-            let x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
+        let http = new XMLHttpRequest();
+        let url = "https://jsonplaceholder.typicode.com/posts"
+        let method = "Get "
     </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
 </body>
 
 </html>
