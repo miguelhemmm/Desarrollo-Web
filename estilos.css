@@ -49,9 +49,6 @@ color: #101010 !important;
 }
 
 
-figure {
-    margin: 0;
-}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -99,16 +96,14 @@ h2 {
     background-repeat: no-repeat;
     background-size: 500px 300px;
     background-position-x: right; */
-    border: 3px solid #d3ae67;
-    border-radius: 6px;
-    display: flex;
+
     align-items: center;
     flex-wrap: wrap;
     padding-left: 0;
     padding-bottom: 0;
     justify-content: space-between;
     margin-top: 60px;
-    box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+
 }
 
 .hero img {
@@ -195,12 +190,11 @@ h1 small {
     text-decoration: none;
 }
 
-.formulario {
-    border: 3px solid #101010;
-    border-radius: 5px;
-    background-color: #d3ae67;
-    display: flex;
-    justify-content: space-between;
+#formulario {
+
+    background-color: whitesmoke;
+
+
     align-items: center;
     padding-left: 25px;
     padding-right: 250px;
@@ -222,28 +216,34 @@ h1 small {
 }
 
 .social-link.twitter {
-    background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/twittericon.png');
+    background-image: url('https://image.flaticon.com/icons/png/512/1384/1384065.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 50%;
 }
 
 .social-link.facebook {
-    background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/facebookicon.png');
+    background-image: url('https://image.flaticon.com/icons/png/512/174/174848.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 50%;
 }
 
 .social-link.instagram {
-    background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/instagramicon.png');
+    background-image: url('https://image.flaticon.com/icons/png/512/733/733558.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 50%;
 }
 
 .social-link.github {
-    background-image: url('https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Imágenes/githubicon.png');
+    background-image: url('https://image.flaticon.com/icons/png/512/38/38401.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+}
+.social-link.linkedin {
+    background-image: url('https://image.flaticon.com/icons/png/512/174/174857.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 50%;
