@@ -19,7 +19,7 @@
     <nav id="header" class="navbar sticky-top navbar navbar-expand-lg navbar navbar-dark pt-3" style="background-color: #101010;">
         <div class="container-fluid">
             <a .navbar-brand href="#">
-                <img class="logo" src="Imágenes/Logo-web3.png" alt="logomh" width="80"/>
+                <img class="logo" src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/Logo-web.png" alt="logomh" width="80"/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon "></span>
@@ -53,21 +53,22 @@
                 </form>
             </div>
         </div>
-    </nav>
-
-    <div class="container-fluid">
+        </nav>
         <section id="Inicio" class="hero">
-            <h1 class="hero-presentation ">Miguel Angel Hernández Melo<br> <small> Ingeniero petrolero, Diseñador, Desarrollador UI </small>
-            </h1>
-            <figure class="heropicture ml-auto">
-                <img src="https://raw.githubusercontent.com/miguelhemmm/Desarrollo-Web/gh-pages/Im%C3%A1genes/danup.jpeg " alt="danuppicture ">
-            </figure>
-        </section>
+                <div class="row">
+ <div class="position-relative overflow-hidden p-md-5 m-md-3 text-center bg-light">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">Miguel Angel Hernández Melo</h1>
+        <p class="lead font-weight-normal">Ingeniero Petrolero, Diseñador, Desarrollador UI Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
+    </section>
 
 
-    <h2>Experiencia</h2>
     <section class="content" id="carrusel">
+
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -123,41 +124,49 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-
-
     </section>
     </div>
-    <section id="contacto" class="contact">
-        <div class="container-fluid">
-            <h2>Contacto</h2>
-            <div class="formulario">
+    <section id=formulario>
 
-                <form class="form-style-4" action="" method="post">
-                    <label for="field1">
-                <span>Nombre</span><input type="text" name="field1" required="true" />
-                </label>
-                    <label for="field2">
-                <span>Correo</span><input type="email" name="field2" required="true" />
-                </label>
-                    <label for="field3">
-                <span>Teléfono</span><input type="text" name="field3" required="true" />
-                </label>
-                    <label for="field4">
-                <span>Comentarios</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
-                </label>
+<div class="container-fluid pb-3 " >
+    <div class="row">
+        <div class="col-md-6">
 
-                    <button type="submit" class="btn btn-submit btn-lg">Enviar mensaje</button>
+     <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Correo</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduce tu correo">
+    <small id="emailHelp" class="form-text text-muted">No compartiré tu correo con nadie ;)</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Nombre</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Introduce tu nombre">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Soy un robot!</label>
+  </div>
 
-                </form>
-                <div class="social ">
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Mensaje</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+   <button type="submit" class="btn btn-submit btn-block">Enviar mensaje</button>
+</form>
+        </div>
+<div class="col-md-4 offset-2 pt-5">
+ <div class="social">
 
                     <a href="https://twitter.com/miguelhemmm " class="social-link twitter " target="_blank"></a>
                     <a href="https://facebook.com/miguelhemmm " class="social-link facebook " target="_blank"></a>
                     <a href="https://github.com/miguelhemmm " class="social-link github " target="_blank"></a>
                     <a href="https://instagram.com/miguelhemmm " class="social-link instagram " target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/miguelhem" class="social-link linkedin" target="_blank"></a>
                 </div>
-            </div>
-        </div>
+</div>
+    </div>
+</div>
     </section>
 
     <footer id="footer">
