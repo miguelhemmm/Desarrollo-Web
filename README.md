@@ -1,9 +1,7 @@
 # miguelhem
 
-Este es mi primer proyecto de programación.
+This was my first we bpage.
 
->Por medio de esta página web estática, muestro mi información relacionada a mis proyectos, tanto de emprendimiento, diseño y proyectos de desarrollo posteriores. 
-
-Dentro de esta página implementé html, css y javascript. Todo fue realizado por mi, el diseño de la página también fue mio. 
+It's just a personal web that includes the things that I learned in my courses; html, css and basic js. The design was made by me.
 
 
